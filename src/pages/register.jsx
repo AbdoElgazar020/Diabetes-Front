@@ -37,10 +37,10 @@ const RegisterPage = () => {
 
           <div className="auth-buttons">
             <a href="/login" className="btn btn-signin">
-              Sign In
+              Login
             </a>
             <a href="/register" className="btn btn-signup">
-              Sign Up
+              Register
             </a>
           </div>
         </nav>
@@ -48,7 +48,7 @@ const RegisterPage = () => {
 
       <section className="auth-section">
         <div className="auth-form-container">
-          <h2>Sign Up</h2>
+          <h2>Register</h2>
           <form onSubmit={handleSubmit}>
             <label htmlFor="firstName">First Name</label>
             <input
@@ -108,10 +108,10 @@ const RegisterPage = () => {
             />
 
             <button type="submit" className="btn btn-signin">
-              Sign In
+              Register
             </button>
             <p>
-              Do not have an account? <a href="/register">Sign Up</a>
+              Do not have an account? <a href="/login">Sign in</a>
             </p>
           </form>
         </div>

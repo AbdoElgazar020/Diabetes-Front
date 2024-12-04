@@ -31,7 +31,7 @@ const HomePage = () => {
   const handleLogout = () => {
     localStorage.removeItem("token");
     navigate("/login");
-  }
+  };
   return (
     <>
       {/* header section start */}
@@ -113,16 +113,14 @@ const HomePage = () => {
             </div>
             <form className="form-inline my-2 my-lg-0">
               <div className="search_btn">
-                <li>
-                  <span className="signin_text" onClick={handleLogout}>
-                    Log out
-                  </span>
+                <li className="signin_text" onClick={handleLogout}>
+                  Log out
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">
                     <i className="fa fa-search" aria-hidden="true" />
                   </a>
-                </li>
+                </li> */}
               </div>
             </form>
           </div>
@@ -175,7 +173,7 @@ const HomePage = () => {
                   Make sure you have been uploaded your eye img{" "}
                 </p>
                 <div className="readmore_bt">
-                  <a href="#">UPLOAD</a>
+                  <a href="eye">UPLOAD</a>
                 </div>
               </div>
               <div className="col-lg-3 col-sm-6">

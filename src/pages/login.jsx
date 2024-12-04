@@ -34,10 +34,10 @@ const LoginPage = () => {
 
           <div className="auth-buttons">
             <a href="/login" className="btn btn-signin">
-              Sign In
+              Login
             </a>
             <a href="/register" className="btn btn-signup">
-              Sign Up
+              Register
             </a>
           </div>
         </nav>
@@ -72,10 +72,10 @@ const LoginPage = () => {
             />
 
             <button type="submit" className="btn btn-signin">
-              Sign In
+              login
             </button>
             <p>
-              Do not have an account? <a href="/register">Sign Up</a>
+              Do not have an account? <a href="/register">Register</a>
             </p>
           </form>
         </div>
